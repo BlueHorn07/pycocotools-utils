@@ -31,8 +31,8 @@ def extractAnnot(annot_path, num, save_path):
 
 
 if __name__ == '__main__':
-  annot_path = '../data_list/train.json'
+  annot_path = './data/indoor360/data_list/test.json'
   extract_num = 100
-  save_path = '../data_list/train_{}.json'.format(extract_num)
+  save_path = './data/indoor360/data_list/test_{}.json'.format(extract_num)
 
   extractAnnot(annot_path, extract_num, save_path)
